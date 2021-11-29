@@ -1,25 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
+import Work from "./Components/Work/Work";
+import styled from "styled-components";
+import AboutMe from "./Components/AboutMe/AboutMe";
+import Skills from "./Components/Skills/Skills";
+import Footer from "./Components/Footer/Footer";
+
+const Section = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  padding-bottom: 140px;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Section>
+      <Header />
+      <Main />
+      <Work />
+      <AboutMe />
+      <Skills />
+      <Footer />
+    </Section>
   );
 }
 
