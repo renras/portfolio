@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.54eb339b.chunk.css",
+    "main.js": "/portfolio/static/js/main.0ddf73b9.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0ddf73b9.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0bf68c44.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0bf68c44.js.map",
+    "static/js/2.ae7b2af5.chunk.js": "/portfolio/static/js/2.ae7b2af5.chunk.js",
+    "static/js/2.ae7b2af5.chunk.js.map": "/portfolio/static/js/2.ae7b2af5.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.54eb339b.chunk.css.map": "/portfolio/static/css/main.54eb339b.chunk.css.map",
+    "static/js/2.ae7b2af5.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ae7b2af5.chunk.js.LICENSE.txt",
+    "static/media/about-me.bc23f25a.jpeg": "/portfolio/static/media/about-me.bc23f25a.jpeg",
+    "static/media/cat-wiki.c6b33859.png": "/portfolio/static/media/cat-wiki.c6b33859.png",
+    "static/media/css3.94050cc4.svg": "/portfolio/static/media/css3.94050cc4.svg",
+    "static/media/e-commerce-product-page.df818ec4.png": "/portfolio/static/media/e-commerce-product-page.df818ec4.png",
+    "static/media/facebook.ab4b223f.svg": "/portfolio/static/media/facebook.ab4b223f.svg",
+    "static/media/github.3490ce8c.svg": "/portfolio/static/media/github.3490ce8c.svg",
+    "static/media/gmail.4180dc6e.svg": "/portfolio/static/media/gmail.4180dc6e.svg",
+    "static/media/html5.fe277c62.svg": "/portfolio/static/media/html5.fe277c62.svg",
+    "static/media/javascript.05fcbe3a.svg": "/portfolio/static/media/javascript.05fcbe3a.svg",
+    "static/media/phone.4c0ecea5.svg": "/portfolio/static/media/phone.4c0ecea5.svg",
+    "static/media/profile-picture.3ecc2860.jpg": "/portfolio/static/media/profile-picture.3ecc2860.jpg",
+    "static/media/react.ffb41819.svg": "/portfolio/static/media/react.ffb41819.svg",
+    "static/media/redux.ea9b5a5a.svg": "/portfolio/static/media/redux.ea9b5a5a.svg",
+    "static/media/rest-countries-api.73714c34.png": "/portfolio/static/media/rest-countries-api.73714c34.png",
+    "static/media/typescript.dd51028c.svg": "/portfolio/static/media/typescript.dd51028c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bf68c44.js",
+    "static/js/2.ae7b2af5.chunk.js",
+    "static/css/main.54eb339b.chunk.css",
+    "static/js/main.0ddf73b9.chunk.js"
+  ]
+}
