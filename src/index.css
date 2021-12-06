@@ -1,8 +1,12 @@
 :root {
   --white: #fff;
   --blue-green: #00c9c8;
+  --blue-green-hover: #00dbdb;
   --black: #000;
   --grey-dark: #303030;
+  --bg-main: #121212;
+  --bg-secondary: #1f1f1f;
+  --bg-secondary-hover: #1a1a1a;
 
   /* font-size */
   --regular: 18px;
@@ -11,7 +15,6 @@
   /* fontfamily */
   --open-sans: "Open Sans", sans-serif;
   --permanent-marker: "Permanent Marker", cursive;
-  --roboto-slabs: "Roboto Slab", serif;
 }
 
 * {
@@ -21,5 +24,5 @@
 }
 
 html {
-  background: var(--black);
+  background: var(--bg-main);
 }

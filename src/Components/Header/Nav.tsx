@@ -1,41 +1,23 @@
-import styled from "styled-components";
+import { Stack, Button } from "@mui/material";
+import styled from "@emotion/styled";
 
-const NavWrapper = styled.nav`
-  font-family: var(--open-sans);
-  max-width: 400px;
-  width: 50%;
+const StyledButton = styled(Button)`
+  color: var(--white);
+  font-size: 1rem;
+  text-transform: capitalize;
 
-  ul {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  li {
-    font-size: 18px;
-    list-style: none;
-  }
-
-  a {
-    text-decoration: none;
-    color: var(--white);
+  &:hover {
+    background: var(--bg-secondary-hover);
   }
 `;
 
 const Nav = () => {
   return (
-    <NavWrapper>
-      <ul>
-        <li>
-          <a href="#work">Work</a>
-        </li>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#footer">Contact</a>
-        </li>
-      </ul>
-    </NavWrapper>
+    <Stack direction="row" spacing={10} sx={{ fontFamily: "var(--open-sans)" }}>
+      <StyledButton href="#work">Work</StyledButton>
+      <StyledButton href="#about">About</StyledButton>
+      <StyledButton href="#footer">Contact</StyledButton>
+    </Stack>
   );
 };
 

@@ -1,43 +1,47 @@
-import styled from "styled-components";
+import { Button, Stack } from "@mui/material";
+import styled from "@emotion/styled";
 
-const Buttons = styled.div`
-  display: flex;
-  gap: 20px;
-`;
-
-interface Props {
-  color?: string;
-  backgroundColor?: string;
-}
-
-export const Button = styled.button<Props>`
-  color: ${(props) => (props.color ? `${props.color}` : `var(--white)`)};
-  font-family: var(--open-sans);
+const DarkButton = styled(Button)`
+  background: var(--bg-secondary);
   font-weight: bold;
-  font-size: 18px;
-  padding: 10px 20px;
-  background: ${(props) =>
-    props.backgroundColor ? `${props.backgroundColor}` : `var(--grey-dark)`};
-  border: none;
-  border-radius: 5px;
 
-  a {
-    color: inherit;
-    text-decoration: none;
+  &:hover {
+    background: var(--bg-secondary-hover);
   }
 `;
 
-const Section = () => {
+const GreenButton = styled(DarkButton)`
+  background-color: var(--blue-green);
+  color: var(--black);
+
+  &:hover {
+    background: var(--blue-green-hover);
+  }
+`;
+
+const Buttons = () => {
   return (
-    <Buttons>
-      <Button>
-        <a href="#footer">Contact Me</a>
-      </Button>
-      <Button backgroundColor={"var(--blue-green)"} color={"var(--black)"}>
-        <a href="#work">Check My Work</a>
-      </Button>
-    </Buttons>
+    <Stack direction="row" spacing={2}>
+      <DarkButton
+        variant="contained"
+        onClick={() => {
+          window.location.href = "#footer";
+        }}
+        size="large"
+      >
+        Contact Me
+      </DarkButton>
+      <GreenButton
+        variant="contained"
+        onClick={() => {
+          window.location.href = "#work";
+        }}
+        size="large"
+      >
+        Check My Work
+      </GreenButton>
+    </Stack>
   );
 };
 
-export default Section;
+export default Buttons;

@@ -5,13 +5,11 @@ import Text from "./Text";
 import image from "../../images/profile-picture.jpg";
 
 const Main = styled.section`
-  padding: 0 140px;
   display: flex;
   justify-content: center;
 `;
 
 const Hero = styled.div`
-  margin-top: 250px;
   display: flex;
   gap: 100px;
 `;

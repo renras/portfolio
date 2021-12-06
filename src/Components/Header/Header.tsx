@@ -1,34 +1,24 @@
 import Nav from "./Nav";
 import Logo from "./Logo";
-import styled from "styled-components";
-
-const HeaderWrapper = styled.header`
-  display: flex;
-  padding: 30px 140px;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 10;
-  background: var(--black);
-  justify-content: center;
-`;
-
-const Content = styled.div`
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  width: 100%;
-  max-width: 1100px;
-`;
+import { AppBar, Container } from "@mui/material";
 
 const Header = () => {
   return (
-    <HeaderWrapper>
-      <Content>
+    <AppBar
+      position="sticky"
+      sx={{ background: "var(--bg-secondary)", padding: "30px 0" }}
+    >
+      <Container
+        sx={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+        }}
+      >
         <Logo />
         <Nav />
-      </Content>
-    </HeaderWrapper>
+      </Container>
+    </AppBar>
   );
 };
 

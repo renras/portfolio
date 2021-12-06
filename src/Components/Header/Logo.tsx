@@ -1,13 +1,14 @@
-import styled from "styled-components";
+import { Typography } from "@mui/material";
+import styled from "@emotion/styled";
 
-const Initials = styled.h1`
-  font-size: var(--large);
+const StyledTypography = styled(Typography)`
   color: var(--blue-green);
   font-family: var(--permanent-marker);
+  font-size: 2rem;
 `;
 
 const Logo = () => {
-  return <Initials>RZV</Initials>;
+  return <StyledTypography variant="h1">RZV</StyledTypography>;
 };
 
 export default Logo;
